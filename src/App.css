@@ -51,7 +51,7 @@ label {
 .itemsContainer {
   display: flex;
   flex-direction: column;
-  max-width: 90vw;
+  max-width: 85vw;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 45px;
@@ -173,6 +173,7 @@ label {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 2rem;
+    max-width: 90vw;
   }
 
   .display {
