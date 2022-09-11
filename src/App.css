@@ -135,12 +135,13 @@ label {
 .cartDisplay {
   background-color: white;
   width: 80vw;
-  height: 80vh;
+  height: 90vh;
   margin: auto;
   padding: 1.5rem;
   border: 1px solid black;
   z-index: 3;
   position: relative;
+  overflow-y: scroll;
 }
 
 .cartDisplay section {
