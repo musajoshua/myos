@@ -155,6 +155,12 @@ label {
   margin: 0.5rem 1rem;
 }
 
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .orders {
   height: 17%;
   margin-top: 0.5rem;
@@ -177,6 +183,10 @@ label {
   }
 
   .display {
+    flex-direction: row;
+  }
+
+  .email {
     flex-direction: row;
   }
 }
